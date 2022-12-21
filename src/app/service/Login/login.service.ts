@@ -45,7 +45,7 @@ export class LoginService {
 
 	posregistro(data:any){
 		let json=JSON.stringify(data);
-		var api = `${environment.direcurl}posregistro`;	
+		var api = `${environment.direcurl}Registro`;	
 		return new Promise( ( resolve, reject ) => { 
 			axios.post(api,{datos:JSON.parse(json),haders:"Ox_mSak@t~r}uh_GoerfQly_=EM$4iIYk#v4oFguL)TY2b0~O["})
 			.then(response => {
